@@ -23,7 +23,7 @@
     <sup>2</sup>Alibaba Cloud Computing&emsp;<br>
     <sup>3</sup>University of Illinois Chicago&emsp;
     <sup>4</sup>The Hong Kong University of Science and Technology&emsp;<br>
-    <sup>♣️</sup> Project Leader&emsp; <sup>✉</sup> Corresponding Author;
+    <sup>♣️</sup> Project Leader&emsp; <sup>✉</sup> Corresponding Author
 </div>
 </div>
 
