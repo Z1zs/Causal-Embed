@@ -11,7 +11,7 @@
     <a href='https://z1zs.github.io/' target='_blank'>Jiahao Huo<sup>1,2,3</sup></a>&emsp;
     <a href='https://hardenyu21.github.io/' target='_blank'>Yu Huang<sup>1,2</sup></a>&emsp;
     <a href='https://openreview.net/profile?id=~Yibo_Yan1' target='_blank'>Yibo Yan<sup>1,2,4</sup></a>&emsp;
-    <a href='https://scholar.google.com/citations?user=9RetdWMAAAAJ&hl=en' target='_blank'>Ye Pan<sup>1</sup></a>&emsp;
+    <a href='https://scholar.google.com/citations?user=9RetdWMAAAAJ&hl=en' target='_blank'>Ye Pan<sup>1</sup></a>&emsp;<br>
     <a href='https://openreview.net/profile?id=~Yi_Cao10' target='_blank'>Yi Cao<sup>2</sup></a>&emsp;
     <a href='https://openreview.net/profile?id=~Mingdong_Ou1' target='_blank'>Mingdong Ou<sup>♣️,2</sup></a>&emsp;
     <a href='https://cs.uic.edu/profiles/philip-yu/' target='_blank'>Philip S. Yu<sup>3</sup></a>&emsp;
