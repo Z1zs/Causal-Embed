@@ -1,5 +1,44 @@
-# README
-This repository is built upon the official implementation of [ColPali](https://github.com/illuin-tech/colpali).
+
+# CausalEmbed: Auto-Regressive Multi-Vector Generation in Latent Space for Visual Document Embedding
+
+<div>
+<div align="center">
+    <a href='https://z1zs.github.io/' target='_blank'>Jiahao Huo<sup>1,2,3</sup></a>&emsp;
+    <a href='https://hardenyu21.github.io/' target='_blank'>Yu Huang<sup>1,2</sup></a>&emsp;
+    <a href='https://openreview.net/profile?id=~Yibo_Yan1' target='_blank'>Yibo Yan<sup>1,2,4</sup></a>&emsp;
+    <a href='https://scholar.google.com/citations?user=9RetdWMAAAAJ&hl=en' target='_blank'>Ye Pan<sup>1</sup></a>&emsp;
+    <a href='https://openreview.net/profile?id=~Yi_Cao10' target='_blank'>Yi Cao<sup>2</sup></a>&emsp;
+    <a href='https://openreview.net/profile?id=~Mingdong_Ou1' target='_blank'>Mingdong Ou<sup>♣️,2</sup></a>&emsp;
+    <a href='https://cs.uic.edu/profiles/philip-yu/' target='_blank'>Philip S. Yu<sup>3</sup></a>&emsp;
+    <a href='https://xuminghu.github.io/' target='_blank'>Xuming Hu<sup>✉,1,4</sup></a>&emsp;
+</div>
+<div>
+<div align="center">
+    <sup>1</sup>The Hong Kong University of Science and Technology (Guangzhou)&emsp;
+    <sup>2</sup>Alibaba Cloud Computing&emsp;<br>
+    <sup>3</sup>University of Illinois Chicago&emsp;
+    <sup>4</sup>The Hong Kong University of Science and Technology&emsp;<br>
+    <sup>♣️</sup> Project Leader&emsp; <sup>✉</sup> Corresponding Author;
+</div>
+</div>
+
+---
+
+Official implementation of "[CAUSALEMBED: Auto-Regressive Multi-Vector Generation in Latent Space for Visual Document Embedding](https://arxiv.org/pdf/2601.21262)".  
+This repository is built upon the official implementation of [ColPali](https://github.com/illuin-tech/colpali). Thanks a lot for their efforts!
+
+## Updates
+
+- **29 Jan, 2026** : Paper published in Arxiv.
+- **10 Feb, 2025** : Code and models published.
+
+---
+
+This repository contains the **official implementation** of the following paper:
+
+> **CausalEmbed: Auto-Regressive Multi-Vector Generation in Latent Space for Visual Document Embedding** https://arxiv.org/abs/2601.21262
+>
+> **Abstract:** _Although Multimodal Large Language Models (MLLMs) have shown remarkable potential in Visual Document Retrieval (VDR) through generating high-quality multi-vector embeddings, the substantial storage overhead caused by representing a page with thousands of visual tokens limits their practicality in real-world applications. To address this challenge, we propose an auto-regressive generation approach, CausalEmbed, for constructing multi-vector embeddings. By incorporating iterative margin loss during contrastive training, CausalEmbed encourages the embedding models to learn compact and well-structured representations. Our method enables efficient VDR tasks using only dozens of visual tokens, achieving a 30-155x reduction in token count while maintaining highly competitive performance across various backbones and benchmarks. Theoretical analysis and empirical results demonstrate the unique advantages of auto-regressive embedding generation in terms of training efficiency and scalability at test time. As a result, CausalEmbed introduces a flexible test-time scaling strategy for multi-vector VDR representations and sheds light on the generative paradigm within multimodal document retrieval._
 
 ## Environment Installation
 
@@ -76,3 +115,4 @@ Evaluate the trained model using:
 ```bash
 bash eval.sh
 ```
+It will evaluate the preformance of CausalEmbed model on each subset of ViDoRe.
