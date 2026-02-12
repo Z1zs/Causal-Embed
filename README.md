@@ -81,7 +81,7 @@ accelerate launch --multi-gpu train_causalqwen25.py \
   --wp 0.1 \
   --wn 0.1 \
   --wq 0.1 \
-  --bs 1
+  --bs 8
 ```
 
 ```bash
@@ -94,7 +94,7 @@ accelerate launch --multi-gpu train_causalqwen25.py \
   --wp 0.1 \
   --wn 0.1 \
   --wq 0.1 \
-  --bs 1
+  --bs 3
 ```
 
 ### Key Arguments
